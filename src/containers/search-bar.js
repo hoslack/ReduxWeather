@@ -26,7 +26,7 @@ class SearchBar extends Component {
 		return (
 			<form onSubmit={this.onFormSubmit} className="input-group">
 				<input
-					placeholder="Search"
+					placeholder="Search for city to get the weather"
 					className="form-control"
 					value={this.state.term}
 					onChange={this.onInputChange}
